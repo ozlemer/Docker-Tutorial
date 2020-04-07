@@ -4,8 +4,9 @@ Bu repoda docker'a başlangıç olarak temel komutlara değinilecektir.
 ## Kısaca Kavramlar
 **Container:** Konteynerler, bir geliştiricinin bir uygulamayı, kütüphaneler ve diğer bağımlılıklar gibi ihtiyaç duyduğu tüm parçalarla paketlemesini ve tek bir paket olarak göndermesini sağlar.
 
-![GitHub Logo](/docker_images/Docker.jpg)
+!(/docker_images/Docker.jpg)
 ![Sanal makinalar ve Docker Container](https://www.emergya.com/blog/qa/wp-content/upload/sites/4/Docker.jpg)
+
 **Image:** Uygulamanızın altyapısında çalışan gerekli işletim sistemi kütüphanelerinin bulunduğu bir yapıdır. 
 
 ![GitHub Logo](/docker_images/dockercomponents.svg)
