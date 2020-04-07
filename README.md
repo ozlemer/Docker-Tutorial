@@ -3,13 +3,18 @@ Bu repoda docker'a başlangıç olarak temel komutlara değinilecektir.
 Öncelikle kurulum ve gereken paketler vs için oldukça faydalı ve açıklayıcı bir şekilde dökümante edilmiş olan [docker'ın sitesini](https://docs.docker.com/get-started/)  ziyaret edebilirsiniz.
 ## Kısaca Kavramlar
 **Container:** Konteynerler, bir geliştiricinin bir uygulamayı, kütüphaneler ve diğer bağımlılıklar gibi ihtiyaç duyduğu tüm parçalarla paketlemesini ve tek bir paket olarak göndermesini sağlar.
+
 ![GitHub Logo](/docker_images/Docker.jpg)
 ![Sanal makinalar ve Docker Container](https://www.emergya.com/blog/qa/wp-content/upload/sites/4/Docker.jpg)
 **Image:** Uygulamanızın altyapısında çalışan gerekli işletim sistemi kütüphanelerinin bulunduğu bir yapıdır. 
+
 ![GitHub Logo](/docker_images/dockercomponents.svg)
 ![Docker bileşenleri](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.docker.com%2Fengine%2Fdocker-overview%2F&psig=AOvVaw0v4dfTZ6Sx9ZZKvUErX5au&ust=1586348527674000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCYkfam1ugCFQAAAAAdAAAAABAD)
 **Docker file:** Bir image'i build etmek için talimatları içeren bir text dosyasıdır. 
-(docker file görseli gelecek)
+
+![GitHub Logo](/docker_images/dockerfile-697x270.png)
+![Docker file](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgeekflare.com%2Fdockerfile-tutorial%2F&psig=AOvVaw2edo_kcuj6cZms132JsFfC&ust=1586349136270000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODHrbOp1ugCFQAAAAAdAAAAABAD)
+Docker file için açıklayıcı bir kaynak: 
 https://docs.docker.com/engine/reference/builder/#environment-replacement
 ## Temel Komutlar
 - yardım alma komutu
