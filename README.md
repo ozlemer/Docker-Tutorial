@@ -2,8 +2,10 @@
 Bu repoda docker'a başlangıç olarak temel komutlara değinilecektir.
 Öncelikle kurulum ve gereken paketler vs için oldukça faydalı ve açıklayıcı bir şekilde dökümante edilmiş olan [docker'ın sitesini](https://docs.docker.com/get-started/)  ziyaret edebilirsiniz.
 ## Kısaca Kavramlar
+**Container:** Konteynerler, bir geliştiricinin bir uygulamayı, kütüphaneler ve diğer bağımlılıklar gibi ihtiyaç duyduğu tüm parçalarla paketlemesini ve tek bir paket olarak göndermesini sağlar
 **Image:** Uygulamanızın altyapısında çalışan gerekli işletim sistemi kütüphanelerinin bulunduğu bir yapıdır. 
-**Container:** Konteynerler, bir geliştiricinin bir uygulamayı, kütüphaneler ve diğer bağımlılıklar gibi ihtiyaç duyduğu tüm parçalarla paketlemesini ve tek bir paket olarak göndermesini sağlar.
+![GitHub Logo](/docker_images/dockercomponents.svg)
+Format: ![Alt Text](url)
 **Docker file:** Bir image'i build etmek için talimatları içeren bir text dosyasıdır. 
 (docker file görseli gelecek)
 https://docs.docker.com/engine/reference/builder/#environment-replacement
