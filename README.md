@@ -90,3 +90,7 @@ $ docker kill <container_name|ID>
 ```
 $ docker history <image_name>
 ```
+- *local host*dan bir *container*ın içine dosya kopyalama
+```
+$ docker cp /home/(name)/(folder_name)/(file_name)  (container_id):/(to_the_place_you_want_the_file_to_be)
+```
